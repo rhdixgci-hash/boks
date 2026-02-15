@@ -9,9 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "next": "16.1.6",
-    "react": "19.2.3",
-    "react-dom": "19.2.3",
+    "@iconify/react": "^6.0.2",
     "@radix-ui/react-accordion": "^1.2.3",
     "@radix-ui/react-alert-dialog": "^1.1.6",
     "@radix-ui/react-aspect-ratio": "^1.1.2",
@@ -45,8 +43,11 @@
     "input-otp": "^1.4.2",
     "lucide-react": "^0.487.0",
     "motion": "*",
+    "next": "16.1.6",
     "next-themes": "^0.4.6",
+    "react": "19.2.3",
     "react-day-picker": "^8.10.1",
+    "react-dom": "19.2.3",
     "react-hook-form": "^7.55.0",
     "react-resizable-panels": "^2.1.7",
     "recharts": "^2.15.2",
@@ -56,14 +57,14 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^20.10.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react-swc": "^3.10.2",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "@types/node": "^20.10.0",
-    "@vitejs/plugin-react-swc": "^3.10.2",
     "vite": "6.3.5"
   }
 }
