@@ -29,11 +29,23 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+      <header className={`
+    
+      fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-gray-900 text-white`}>
+          Full-Stack Digital Brandscapes
+          | Design &
+          Development TEAMS |
+          SaaS Expertise |
+          Brand Systems |
+          <h1>The artist operates from the deepest stratum—aware that each gesture carries the weight of every prior grounding. To create now is to create within the entire history.</h1>
+      </header>
       <div className={`flex `}>
         <SideNavIconic/>
           <header><RemoteDevCard/></header>
       </div>
         {children}
+
+      --------------
       محتوای پرچم‌دار
       محتوای تحلیلی و پرچم‌دار
       مقالات، تحلیل‌ها و گزارش‌های عمیق درباره بازار کار، سازمان‌های یادگیرنده و آینده استعدادیابی
