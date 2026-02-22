@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import SideNavIconic from "@/app/private/(layout)/SideNavIconic";
-import RemoteDevCard from "@/app/remoteDevCard";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -40,8 +38,8 @@ export default function RootLayout({
           <h1>The artist operates from the deepest stratum—aware that each gesture carries the weight of every prior grounding. To create now is to create within the entire history.</h1>
       </header>
       <div className={`flex `}>
-        <SideNavIconic/>
-          <header><RemoteDevCard/></header>
+        {/*<SideNavIconic/>*/}
+        {/*  <header><RemoteDevCard/></header>*/}
       </div>
         {children}
 

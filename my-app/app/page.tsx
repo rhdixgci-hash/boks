@@ -92,11 +92,11 @@ export default function Home() {
 
         مدل ۹ تا ۵ فرض می‌کند:
 
-        > «حضور مساوی است با کار مفید»
+        {/*> «حضور مساوی است با کار مفید»*/}
 
         اما در توسعه نرم‌افزار:
 
-        > «تمرکز مساوی است با خروجی باکیفیت»
+        {/*> «تمرکز مساوی است با خروجی باکیفیت»*/}
 
         کار هیبریدی و ریموت امکان تنظیم ساعات کاری بر اساس انرژی ذهنی را فراهم می‌کند.
 
@@ -462,7 +462,7 @@ export default function Home() {
 
           ---
 
-          # 1. Deep Work > Desk Time
+          {/*# 1. Deep Work > Desk Time*/}
 
           Software development is cognitively demanding. Writing clean architecture, debugging edge cases, or designing scalable systems requires uninterrupted focus.
 
@@ -519,7 +519,7 @@ export default function Home() {
 
           ---
 
-          # 4. Global Talent > Local Geography
+          # 4. Global Talent-- Local Geography
 
           The best developers don’t live in one city.
 
@@ -670,8 +670,6 @@ export default function Home() {
           * A Medium-style thought leadership article
           * A version with data/statistics citations
           * Or one tailored to startup founders vs enterprise CTOs
-
-
       </div>
   );
 }
